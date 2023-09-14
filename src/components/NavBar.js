@@ -40,7 +40,7 @@ const NavBar = () => {
 
       <Stack>
         <Button
-          sx={{ minWidth: '280px' }}
+          sx={{ width: '280px' }}
           variant="contained"
           endIcon={<ArrowDropDownIcon fontSize="large" />}
           id="fade-button"
@@ -51,7 +51,6 @@ const NavBar = () => {
           Categories
         </Button>
         <Menu
-          sx={{ minWidth: '280px' }}
           id="fade-menu"
           MenuListProps={{
             'aria-labelledby': 'fade-button',
@@ -60,9 +59,15 @@ const NavBar = () => {
           open={open}
           onClose={handleClose}
           TransitionComponent={Fade}>
-          <MenuItem onClick={handleClose}>Option 1</MenuItem>
-          <MenuItem onClick={handleClose}>Option 2</MenuItem>
-          <MenuItem onClick={handleClose}>Option 3</MenuItem>
+          <MenuItem sx={{ width: '280px' }} onClick={handleClose}>
+            Option 1
+          </MenuItem>
+          <MenuItem sx={{ width: '280px' }} onClick={handleClose}>
+            Option 2
+          </MenuItem>
+          <MenuItem sx={{ width: '280px' }} onClick={handleClose}>
+            Option 3
+          </MenuItem>
         </Menu>
       </Stack>
     </Box>
