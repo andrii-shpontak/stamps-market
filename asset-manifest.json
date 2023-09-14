@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/stamps-market/static/css/main.e6c13ad2.css",
-    "main.js": "/stamps-market/static/js/main.acac3072.js",
+    "main.js": "/stamps-market/static/js/main.d2b7eba8.js",
     "index.html": "/stamps-market/index.html",
     "main.e6c13ad2.css.map": "/stamps-market/static/css/main.e6c13ad2.css.map",
-    "main.acac3072.js.map": "/stamps-market/static/js/main.acac3072.js.map"
+    "main.d2b7eba8.js.map": "/stamps-market/static/js/main.d2b7eba8.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.acac3072.js"
+    "static/js/main.d2b7eba8.js"
   ]
 }
